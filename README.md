@@ -31,7 +31,7 @@ My current definition of success will be when the workflow engine can handle ove
 - [x] Write todo list
 - [x] Decide on a licence
 - [ ] Decide on a way to receive donations
-- [ ] Add a CONTRIBUTING file
+- [x] Add a CONTRIBUTING file
 - [ ] Initial setup of NPM, travis, gitter, etc
 - [ ] Skeleton of testing framework etc
 - [ ] Move this todo list into gherkin `given/when/then` tests
