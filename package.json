@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "A BPMN 2.0 engine leveraging graph database technology",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "true"
   },
