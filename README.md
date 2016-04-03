@@ -1,6 +1,8 @@
 # Graph BPMN
 A BPMN 2.0 engine leveraging graph database technology
 
+[![Paypal](https://img.shields.io/badge/Paypal-Donate-ff69b4.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=chris%40cns%2eme%2euk&lc=GB&item_name=Chris%20Nesbitt%2dSmith&item_number=github%2ecom%2fchrisns%2fgraph%2dbpmn&no_note=0&currency_code=GBP&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest)
+
 **This project is very much a work in progress, and I wouldn't recommend using it in production (YET).**
 
 ## What is BPMN?
@@ -30,7 +32,7 @@ My current definition of success will be when the workflow engine can handle ove
 
 - [x] Write todo list
 - [x] Decide on a licence
-- [ ] Decide on a way to receive donations
+- [x] Decide on a way to receive donations
 - [x] Add a CONTRIBUTING file
 - [ ] Initial setup of NPM, travis, gitter, etc
 - [ ] Skeleton of testing framework etc
