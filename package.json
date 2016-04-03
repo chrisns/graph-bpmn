@@ -1,0 +1,19 @@
+{
+  "name": "graph-bpmn",
+  "version": "0.0.0",
+  "description": "A BPMN 2.0 engine leveraging graph database technology",
+  "main": "index.js",
+  "scripts": {
+    "test": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisns/graph-bpmn.git"
+  },
+  "author": "Chris Nesbitt-Smith <chris@cns.me.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisns/graph-bpmn/issues"
+  },
+  "homepage": "https://github.com/chrisns/graph-bpmn#readme"
+}
