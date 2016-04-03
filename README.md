@@ -7,8 +7,8 @@ A BPMN 2.0 engine leveraging graph database technology
 **This project is very much a work in progress, and I wouldn't recommend using it in production (YET).**
 
 ## What is BPMN?
-Short story: https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation
-Long story: http://www.omg.org/spec/BPMN/2.0/PDF
+* Short story: https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation
+* Long story: http://www.omg.org/spec/BPMN/2.0/PDF
 
 ## Yet another BPMN engine?
 There's a bunch of tools you can use as a BPMN executor written in every mainstream language (though mostly java)
@@ -36,7 +36,7 @@ My current definition of success will be when the workflow engine can handle ove
 - [x] Decide on a way to receive donations
 - [x] Add a CONTRIBUTING file
 - [x] Initial setup of NPM, travis, gitter, etc
-- [ ] Skeleton of testing framework etc
+- [x] Skeleton of testing framework etc
 - [ ] Move this todo list into gherkin `given/when/then` tests
 - [ ] Define Vertex classes for `start`, `task` and `end` steps
 - [ ] Persist a simple workflow
