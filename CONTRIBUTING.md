@@ -14,7 +14,7 @@
 
 ## Do you intend to add a new feature or change an existing one?
 
-* Suggest your change in the gitter channel and start writing code.
+* Suggest your change in the [gitter channel](https://gitter.im/chrisns/graph-bpmn) and start writing code.
 
 * Do not open an issue on GitHub until you have collected positive feedback about the change.
 

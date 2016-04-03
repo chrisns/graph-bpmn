@@ -1,7 +1,8 @@
 # Graph BPMN
 A BPMN 2.0 engine leveraging graph database technology
 
-[![Paypal](https://img.shields.io/badge/Paypal-Donate-ff69b4.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=chris%40cns%2eme%2euk&lc=GB&item_name=Chris%20Nesbitt%2dSmith&item_number=github%2ecom%2fchrisns%2fgraph%2dbpmn&no_note=0&currency_code=GBP&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest) [![Build Status](https://travis-ci.org/chrisns/graph-bpmn.svg?branch=master)](https://travis-ci.org/chrisns/graph-bpmn)
+[![Paypal](https://img.shields.io/badge/Paypal-Donate-ff69b4.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=chris%40cns%2eme%2euk&lc=GB&item_name=Chris%20Nesbitt%2dSmith&item_number=github%2ecom%2fchrisns%2fgraph%2dbpmn&no_note=0&currency_code=GBP&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest) [![Build Status](https://travis-ci.org/chrisns/graph-bpmn.svg?branch=master)](https://travis-ci.org/chrisns/graph-bpmn) [![Gitter](https://badges.gitter.im/chrisns/graph-bpmn.svg)](https://gitter.im/chrisns/graph-bpmn?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge)
+
 
 **This project is very much a work in progress, and I wouldn't recommend using it in production (YET).**
 
@@ -34,7 +35,7 @@ My current definition of success will be when the workflow engine can handle ove
 - [x] Decide on a licence
 - [x] Decide on a way to receive donations
 - [x] Add a CONTRIBUTING file
-- [ ] Initial setup of NPM, travis, gitter, etc
+- [x] Initial setup of NPM, travis, gitter, etc
 - [ ] Skeleton of testing framework etc
 - [ ] Move this todo list into gherkin `given/when/then` tests
 - [ ] Define Vertex classes for `start`, `task` and `end` steps
@@ -47,9 +48,11 @@ My current definition of success will be when the workflow engine can handle ove
 - [ ] Persist executions
 - [ ] Some sort of story for updates to the execution and migrating existing executions
 - [ ] Pause/Resume executions
+- [ ] Publish on npm
 - [ ] 1.0.0
 - [ ] RESTful API
 - [ ] Setup docker image
+- [ ] Publish docker image
 - [ ] Setup docker compose
 
 
