@@ -1,4 +1,7 @@
+sudo: required
+
 language: node_js
+
 node_js:
   - 4.0
   - 4.1
@@ -17,3 +20,12 @@ node_js:
   - 5.10
   - stable
 
+services:
+  - docker
+
+before_script:
+  - docker run -d -p 2424:2424 -e "ORIENTDB_ROOT_PASSWORD=root" --name orientdb orientdb/orientdb:2.1.5
+
+after_script:
+  - docker stop orientdb
+  - docker rm orientdb
