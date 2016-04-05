@@ -33,5 +33,8 @@
     "typescript": "^1.8.9",
     "typings": "^0.7.11",
     "yadda": "^0.17.5"
+  },
+  "dependencies": {
+    "orientjs": "^2.1.11"
   }
 }
