@@ -1,14 +1,14 @@
 "use strict";
-
+/* tslint:disable */
 import * as chai from "chai";
-import * as OrientDB from "orientjs";
-import * as uuid from "uuid";
+
+const OrientDB = require("orientjs");
 
 chai.use(require("chai-as-promised"))
   .should();
 
 const server = OrientDB({
-  host: process.ENV['TRAVIS'] ? '127.0.0.1' : '192.168.99.100',
+  host: process.env["TRAVIS"] ? "127.0.0.1" : "192.168.99.100",
   port: 2424,
   username: 'root',
   password: 'root'
@@ -22,7 +22,7 @@ const dbSettings = {
 
 before(() =>
   server.create(dbSettings)
-    .catch(error => server.use(dbSettings.name))
+    .catch(() => server.use(dbSettings.name))
     .tap(db => {
       global['db'] = db
     })
@@ -38,3 +38,4 @@ after(() =>
   server.drop(dbSettings)
     .then(() => server.close())
 );
+/* tslint:enable */
