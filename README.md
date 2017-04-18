@@ -1,4 +1,6 @@
 # Graph BPMN
+
+[![Join the chat at https://gitter.im/chrisns/graph-bpmn](https://badges.gitter.im/chrisns/graph-bpmn.svg)](https://gitter.im/chrisns/graph-bpmn?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 A BPMN 2.0 engine leveraging graph database technology
 
 [![Paypal](https://img.shields.io/badge/Paypal-Donate-ff69b4.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=chris%40cns%2eme%2euk&lc=GB&item_name=Chris%20Nesbitt%2dSmith&item_number=github%2ecom%2fchrisns%2fgraph%2dbpmn&no_note=0&currency_code=GBP&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest) [![Build Status](https://travis-ci.org/chrisns/graph-bpmn.svg?branch=master)](https://travis-ci.org/chrisns/graph-bpmn) [![Gitter](https://badges.gitter.im/chrisns/graph-bpmn.svg)](https://gitter.im/chrisns/graph-bpmn?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge)
