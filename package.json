@@ -24,15 +24,15 @@
   },
   "homepage": "https://github.com/chrisns/graph-bpmn#readme",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "chai-as-promised": "^5.3.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
     "istanbul": "^0.4.2",
-    "mocha": "^2.4.5",
+    "mocha": "^3.5.3",
     "precommit": "^1.2.0",
-    "tslint": "^3.6.0",
-    "typescript": "^1.8.9",
-    "typings": "^0.7.11",
-    "yadda": "^0.17.5"
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.3",
+    "typings": "^2.1.1",
+    "yadda": "^1.4.0"
   },
   "dependencies": {
     "orientjs": "^2.1.11"
