@@ -35,6 +35,6 @@
     "yadda": "^1.4.0"
   },
   "dependencies": {
-    "orientjs": "^2.1.11"
+    "orientjs": "^2.2.7"
   }
 }
